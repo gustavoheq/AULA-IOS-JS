@@ -1,4 +1,4 @@
-let atividade = "Qualquer coisa  ios"
+let atividade = "Qualquer coisa ios"
 
 
 

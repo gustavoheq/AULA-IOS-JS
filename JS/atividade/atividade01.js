@@ -5,6 +5,7 @@ let soma = (idade1 + idade2);
 console.log(`${soma}`);
 
 let nome = "Gustavo"
+nome = nome.toUpperCase
 console.log("Atividade do,", nome);
 
 
