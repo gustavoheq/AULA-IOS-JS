@@ -14,15 +14,14 @@ else {
 console.log("Fim");
 
 let velocidade = 75;
-if (velocidade >= 80) {
+if (velocidade > 80) {
     console.log("Multado por trafegar acima do limite permitido");
 }
-else {
-    console.log("Boa Viagem");
-}
-
-if (velocidade < 40) {
+else if (velocidade < 40){
     console.log("Multado por trafegar abaixo do limite permitido");
 }
+else {
+    console.log("Boa Viagem.");
+} 
 console.log("Fim");
 
