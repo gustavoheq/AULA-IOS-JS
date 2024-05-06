@@ -21,3 +21,6 @@ console.log(nu1 < nu2);
 
 console.log(nu1 <= nu2);
 // true
+
+
+//  < 0, 1, 2, 3, 4, 5 >
