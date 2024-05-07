@@ -1,12 +1,12 @@
-let idade = 15;
+let idade = 25;
 
 if (idade < 18) {
     console.log("O usuário é menor de idade");
 }
-else if (idade < 60) {
+else if (idade > 60) {
     console.log("O usuário é idoso");
 }
-else {
+else if (idade < 60) {
     console.log("O usuário é adulto");
 }
 console.log("Fim");
