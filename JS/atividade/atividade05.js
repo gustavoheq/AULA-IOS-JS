@@ -8,7 +8,7 @@ else if (idade < 60) {
 }
 else {
     console.log("O usuário é adulto");
-} 
+}
 console.log("Fim");
 
 
@@ -20,3 +20,13 @@ else if (idade < 18) {
 }
 
 console.log("Fim");
+
+let numero = -15;
+
+if (numero >= 0) {
+    console.log("O número é positivo.");
+} else {
+    console.log("O número é negativo.");
+}
+console.log("Fim");
+
