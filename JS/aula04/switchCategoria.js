@@ -1,4 +1,4 @@
-let categoria = "e"
+let categoria = "a4"
 
 switch (categoria.toUpperCase()){
     case "A1":

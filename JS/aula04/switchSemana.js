@@ -1,6 +1,6 @@
-let semana = "e"
+let number = "3"
 
-switch (semana.toUpperCase()){
+switch (number){
     case "1":
         console.log("Hoje é Domingo");
         break;    
