@@ -1,6 +1,6 @@
-let dia = 3
+let diaSemana = 3
 
-switch (dia) {
+switch (diaSemana) {
     case 1:
         console.log("Hoje é Domingo");
         break;
@@ -22,6 +22,7 @@ switch (dia) {
     case 7:
         console.log("Hoje é Segunda!");
         break;
-    default: console.log("Não avaliado.");
+    default:
+        console.log("Data Invalida.");
         break;
-}
+}c

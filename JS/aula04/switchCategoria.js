@@ -1,9 +1,9 @@
 let categoria = "a4"
 
-switch (categoria.toUpperCase()){
+switch (categoria.toUpperCase()) {
     case "A1":
         console.log("Vertebrados!");
-        break;    
+        break;
     case "A2":
         console.log("Invertebrados!");
         break;
@@ -16,6 +16,7 @@ switch (categoria.toUpperCase()){
     case "A5":
         console.log("Herbívoros!");
         break;
-        default: console.log("Não avaliado.");
+    default:
+        console.log("Categoria Invalida.");
         break;
-    }
+}
