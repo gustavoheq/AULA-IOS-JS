@@ -22,7 +22,7 @@ que o usuário é idoso.
 let idade = 15;
 if (idade < 18) {
     console.log("Menor de idade");
-} else if (idade >= 18 && idade < 60){
+} else if (idade >= 18 && idade < 60) {
     console.log("Você é adulto");
 } else {
     console.log("Você é idoso");
@@ -50,6 +50,11 @@ if (usuario >= 18){
     alert("Você ainda não pode dirigir")
 }
 
+// let idade = 15;
+// idade >= 18 ? "Sim você pode dirigir" : "Você não pode dirigir"
+// console.log(idade >= 18 ? "Sim você pode dirigir" : "Você não pode dirigir");
+
+
 /*
 Faça um programa que peça ao usuário para digitar um número inteiro. Se o número
 for positivo, exiba uma mensagem informando que o número é positivo. Se o número for
@@ -57,12 +62,12 @@ negativo, exiba uma mensagem informando que o número é negativo. Se o número 
 igual a zero, exiba uma mensagem informando que o número é zero
 */
 
-let numero = -15;
-
-if (numero >= 0) {
-    console.log("O número é positivo.");
+let nu1 = parseInt(prompt("Escolhe um número inteiro"));
+if (nu1 > 0){
+    alert("O número é positivo")    
+} else if (nu1 < 0){
+    alert("O número é negativo")    
 } else {
-    console.log("O número é negativo.");
+    alert("O número é zero")
 }
-console.log("Fim");
 
