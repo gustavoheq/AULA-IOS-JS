@@ -34,14 +34,21 @@ igual a 18, exiba a mensagem "Você pode dirigir". Caso contrário, exiba a mens
 ainda não pode dirigir". 
 */
 
-if (idade >= 18) {
-    console.log("Você pode dirigir");
-}
-else if (idade < 18) {
-    console.log("Você ainda não pode dirigir");
-}
+// let idade = 15;
+// if (idade >= 18) {
+//     console.log("Você pode dirigir");
+// }
+// else if (idade < 18) {
+//     console.log("Você ainda não pode dirigir");
+// }
+// console.log("Fim");
 
-console.log("Fim");
+let usuario = Number(prompt("Digite sua Idade: "));
+if (usuario >= 18){
+    alert("Você pode dirigir")
+} else {
+    alert("Você ainda não pode dirigir")
+}
 
 /*
 Faça um programa que peça ao usuário para digitar um número inteiro. Se o número
