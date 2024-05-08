@@ -1,12 +1,12 @@
-let altura = parseInt(prompt("Insira sua nota Altura"));
-let peso = parseInt(prompt("Insira sua nota Peso"));
+let peso = Number(prompt("Insira seu Peso"));
+let altura = Number(prompt("Insira sua Altura"));
+let imc = peso / (altura * 2);
 
 
-
-if (IMC >= 18,5 ) {
-    console.log("Esta em intervalo saudável");
+if (imc >= 18.9 && imc <= 24.9 ) {
+    alert("Esta em intervalo saudável");
 } else {
-    console.log("Não esta em intervalo saudável");
+    alert("Não esta em intervalo saudável");
 }
 
-alert(`A sua nota média é: ${IMC} `)
+alert(`A sua nota média é: ${imc}`)
