@@ -1,4 +1,4 @@
-let contador = 0
+let contador = 6
 let contadorDo = 0
 
 while (contador <= 5 ) {
