@@ -1,4 +1,4 @@
-let valorProd = parseFloat(prompt("Valor Produto: "));
+let valorProduto = parseFloat(prompt("Valor Produto: "));
 let cupom = prompt("Cupom Desconto: ");
 
 let desconto = 0;
@@ -24,5 +24,5 @@ switch (cupom.toUpperCase()) {
         break;
 }
 
-let valorDesconto = valorProd * (1 - desconto);
+let valorDesconto = valorProduto * (1 - desconto);
 alert("Valor Total: R$" + valorDesconto.toFixed(2));
