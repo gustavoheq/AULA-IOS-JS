@@ -11,6 +11,6 @@ console.log("------- -------");
 console.log(`Olá, ${nomes[5]}! Você foi cadastrado na plataforma.`);
 console.log("------- -------");
 
-for (let i= 0; i <= nomes.length; i++) {
+for (let i= 0; i < nomes.length; i++) {
 console.log(`Olá, ${nomes[i]}! Você foi cadastrado na plataforma.`);   
 }
