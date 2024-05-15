@@ -10,12 +10,7 @@ let aluno1 = {
     }
 }
 
-let {
-    RA,
-    Nome,
-    Idade
-} = aluno1
-
+let {RA, Nome, Idade} = aluno1
 
 console.log(aluno1);
 console.log(aluno1.Nome);
