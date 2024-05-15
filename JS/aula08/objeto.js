@@ -10,8 +10,21 @@ let aluno1 = {
     }
 }
 
+let {
+    RA,
+    Nome,
+    Idade
+} = aluno1
+
+
 console.log(aluno1);
 console.log(aluno1.Nome);
+console.log(aluno1.Nome.toUpperCase());
+
+
+console.log('---- ---- ----');
+console.log('---- ---- ----');
+
 
 let animal1 = {
     Nome: 'Yasu',
