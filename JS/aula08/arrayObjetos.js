@@ -24,3 +24,6 @@ let pets = [
         cor: 'Cinza',
     },
 ]
+console.log(pets);
+console.log(pets[1].nome);
+console.log(pets[1].tipo);
