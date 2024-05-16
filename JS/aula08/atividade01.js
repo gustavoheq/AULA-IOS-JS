@@ -1,4 +1,12 @@
+console.log(`Exercício 01: Dado um array de números, let números = [1, 2, 3, 4, 5] calcule a soma de todos os elementos do array.:`);
+
+let números = [1, 2, 3, 4, 5];
+
+let soma = números.reduce((total, num) => total + num, 0);
+console.log("A soma de todos os elementos do array é:", soma);
+console.log('---- ---- ----');
 console.log(`Exercício 01: Imprima os números pares de 2 a 10:`);
+
 
 let contador = 2
 
