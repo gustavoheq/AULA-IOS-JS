@@ -7,7 +7,7 @@ let jogos = [
 ]
 
 jogos.forEach((jogos)=> {
-    console.log(`Jogos onlines: ${jogos}`);
+    console.log(`Jogos onlines: ${jogos}`)
 })
 
 console.log(`--- --- --- --- --- --- --- --- ---`);
