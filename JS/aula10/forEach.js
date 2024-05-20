@@ -13,10 +13,16 @@ let email = [
 // Index do array
 // Array completo
 
-email.forEach((email)=>{
+email.forEach((email)=> {
     console.log(`E-mail enviado para: ${email}`)
 })
 
-// ()=>{
+console.log(`--- --- --- --- --- --- --- --- ---`);
 
-//}
+email.forEach((valor, elemento, array)=> {
+    console.log(`E-mail enviado para: ${valor}`)
+    console.log(`Você é o número: ${elemento} da lista.`)
+    console.log(`Elementos da lista: ${array} `)
+    console.log(`--- --- --- --- --- --- --- --- ---`)
+})
+
