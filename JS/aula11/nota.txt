@@ -1,8 +1,31 @@
 Orientação a objetos
 
-A Orientação a objetos é um paradigma de
+A orientação a objetos é um paradigma de
 programação que organiza o código em 
 torno de objetos, que são instâncias de
 classes. Em JS, assim como em várias 
 outras linguagens de programação, a
 orientação a objetos é amplamente utilizada.
+
+Encapsulamento:
+
+O encapsulamento é o processo de ocultar detalhes de implementação e exibir 
+apenas a funcionalidade ao usuário. Em outras palavras, o usuário interage com o 
+objeto através de métodos (funções), sem precisa entender a lógica interna do objeto.
+
+Abstração
+
+A abstração é uma metodologia que permite representar o mundo real em termos 
+de classes e objetos. Ela ajuda a reduzir a complexidade, escondendo detalhes 
+desnecessários de um objeto.
+
+Herança:
+
+A herança é um mecanismo que permite que uma classe herde propriedades e 
+comportamentos de uma classe pai. Isso ajuda a reutilizar, estender ou modificar
+os atributos e comportamentos que já estão definidos em outras classes.
+
+Polimorfismo
+
+O polimorfismo permite que uma classe tenha múltiplas formas. Por exemplo, se 
+temos uma classe chamada "Animal", onde "cão", "gato" e "cavalo" onde são juntas por "som".
