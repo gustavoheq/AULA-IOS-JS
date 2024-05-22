@@ -1,0 +1,8 @@
+Orientação a objetos
+
+A Orientação a objetos é um paradigma de
+programação que organiza o código em 
+torno de objetos, que são instâncias de
+classes. Em JS, assim como em várias 
+outras linguagens de programação, a
+orientação a objetos é amplamente utilizada.
