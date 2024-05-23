@@ -26,6 +26,6 @@ h1Elemento.style.border = "3px solid red";
 h1Elemento.style.color = "darkblue";
 document.body.appendChild(h1Elemento);
 
-setInterval(() => {
+setIntervalo(() => {
     alternarCorBorda(h1Elemento);
 }, 1000);
