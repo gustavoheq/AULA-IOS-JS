@@ -1,4 +1,7 @@
-estudante = [
+// Utilize o método map para criar um novo array contendo apenas os nomes
+// dos alunos.
+
+estudantes = [
     {
         name: 'John',
         age: 20
@@ -13,7 +16,7 @@ estudante = [
     }
 ]
 
-let nomeAlunos = estudante.map((nome)=> {
+let nomeAlunos = estudantes.map((nome)=> {
     return nome.name
 })
 console.log(nomeAlunos);
