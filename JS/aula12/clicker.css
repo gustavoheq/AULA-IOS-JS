@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#imagem {
+    filter: invert(0%);
+    transition: filter 0.3s, transform 0.3s;
+}
+
+#imagem.clicked {
+    filter: invert(100%);
+    transform: scale(0.9);
+}
+
+#contador {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#frases {
+    margin-top: 10px;
+    font-size: 30px;
+    top: 20px;
+}

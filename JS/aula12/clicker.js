@@ -1,21 +1,16 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var imagem = document.getElementById('imagem');
-    var contador = document.getElementById('contador');
+let contador = 0;
+const imagem = document.getElementById("imagem");
+const contadorDiv = document.getElementById("contador");
+const frasesDiv = document.getElementById("frases");
 
-    function incrementarContador() {
-        var valorAtual = parseInt(contador.textContent);
-        contador.textContent = valorAtual + 1;
+imagem.addEventListener("click", () => {
+    contador++;
+    contadorDiv.textContent = contador;
+    imagem.classList.toggle("clicked");
+
+    if (contador % 50 === 0) {
+        const frase = document.createElement("p");
+        frase.textContent = "Parabéns! Continue assim!";
+        frasesDiv.appendChild(frase);
     }
-
-    imagem.addEventListener('click', incrementarContador);
-
-    incrementarContador();
 });
-
-
-// faça um programa em que o usuario possa clca e a cada clique adicione 1 ao contador 
-// exiba o contado na tela 
-
-
-extra 
-// adicione frases a cada 50 cliquephin
