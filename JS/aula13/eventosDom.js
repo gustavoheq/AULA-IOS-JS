@@ -6,3 +6,7 @@ const calcularMedia = () => {
     let res = document.querySelector('#resultado')
     res.innerHTML = `Nota do Aluno: ${media}`
 }
+
+let calcular = document.querySelector('#botaoEnviar')
+
+calcular.addEventListener('click', calcularMedia)
