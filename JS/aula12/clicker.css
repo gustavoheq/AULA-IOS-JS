@@ -12,7 +12,7 @@
     transition: filter 0.3s, transform 0.3s;
 }
 
-#imagem.clicked {
+#imagem:active {
     filter: invert(100%);
     transform: scale(0.9);
 }
