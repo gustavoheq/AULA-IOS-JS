@@ -17,6 +17,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     button.addEventListener('click', fetchDogImage);
 
-    // Carregar uma imagem inicial ao carregar a página
     fetchDogImage();
 });

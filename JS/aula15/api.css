@@ -5,12 +5,20 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(103, 2, 222, 1) 55%, rgba(131, 0, 255, 1) 100%);
 }
+
 
 .container {
     text-align: center;
-    background-color: white;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -22,7 +30,8 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007BFF;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(103, 2, 222, 1) 55%, rgba(131, 0, 255, 1) 100%);
     color: white;
     border: none;
     border-radius: 5px;
@@ -30,7 +39,9 @@ body {
 }
 
 #new-dog-button:hover {
-    background-color: #0056b3;
+    background: rgb(131, 0, 255);
+    background: linear-gradient(90deg, rgba(131, 0, 255, 1) 0%, rgba(103, 2, 222, 1) 33%, rgba(2, 0, 36, 1) 100%);
+    
 }
 
 #content {
